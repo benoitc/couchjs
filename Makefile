@@ -1,3 +1,7 @@
+CFLAGS=-Wall -c -g -O2 -DXP_UNIX
+LDFLAGS=-lmozjs -lcurl
+export LDFLAGS CFLAGS
+
 JS_FILE = main.js
 
 JS_FILE_COMPONENTS = \
