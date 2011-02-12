@@ -1,6 +1,6 @@
-CFLAGS=-Wall -c -g -O2 -DXP_UNIX
-LDFLAGS=-lmozjs -lcurl
-export LDFLAGS CFLAGS
+JS_CFLAGS=-DXP_UNIX
+JS_LDFLAGS=-lmozjs -lcurl
+export JS_LDFLAGS JS_CFLAGS
 
 JS_FILE = main.js
 
